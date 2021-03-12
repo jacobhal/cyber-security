@@ -8,7 +8,8 @@ Detect vulnerabilities in npm packages/NuGet packages/3rd party Java libraries w
 Download the command line tool and run the following command to perform an analysis:
 
 ```powershell
-.\dependency-check.bat --project <project-name> --scan <folder-to-scan> --format ALL --out <target-folder-for-vulnerability-reports> --proxyserver <proxy-network-address> --proxyport <proxy-port>
+.\dependency-check.bat --project <project-name> --scan <folder-to-scan> --format ALL 
+--out <target-folder-for-vulnerability-reports> --proxyserver <proxy-network-address> --proxyport <proxy-port>
 ```
 
 > OWASP top ten Web application vulnerabilities: https://owasp.org/www-project-top-ten/
