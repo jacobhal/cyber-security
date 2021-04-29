@@ -20,6 +20,10 @@ Download the command line tool and run the following command to perform an analy
 
 Intercept requests and perform Man in the Middle attacks.
 
+## Microsoft Best Practices for Azure
+
+https://docs.microsoft.com/en-us/azure/security/develop/secure-dev-overview
+
 ## Cyber Kill Chain
 
 We need to stop/kill hackers somewhere in this chain in order to stop an attack, otherwise it's game over.
