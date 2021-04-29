@@ -75,10 +75,14 @@ Least privilege is the concept and practice of restricting access rights for use
 
 The idea behind the defense in depth approach is to defend a system against any particular attack using several independent methods. It is a layering tactic, conceived by the National Security Agency (NSA) as a comprehensive approach to information and electronic security.
 
-#### Real world example
-
-A while back you could pass JavaScript script tags like `<script>alert('xss')</script>` in your Swish messages which would then pop up a message if you accessed your Swish transactions in your online bank.
-
 #### Man in the Middle
 
 Intercept requests before they reach their destination and change some data.
+
+## Real world security breach example
+
+### Swish
+
+A while back you could pass JavaScript script tags like `<script>alert('xss')</script>` in your Swish messages which would then pop up a message if you accessed your Swish transactions in your online bank.
+
+Another thing that was discovered was that anyone could access anyone elses payment history since the phone number was used in the api request. There was no input validation matching the phone number who requested the history to the phone number that belonged to the history returned which could have prevented this.
