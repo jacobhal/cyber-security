@@ -28,9 +28,13 @@ Intercept requests and perform Man in the Middle attacks.
 
 The audit command submits a description of the dependencies configured in your project to your default registry and asks for a report of known vulnerabilities. If any vulnerabilities are found, then the impact and appropriate remediation will be calculated. If the fix argument is provided, then remediations will be applied to the package tree.
 
-## OWASP Cheat Sheet
+## Development Principles to Follow
 
-https://cheatsheetseries.owasp.org/
+* Code review process
+* Static Code Analysis (like SonarQube)
+* Security unit tests
+* Best practices (https://cheatsheetseries.owasp.org/)
+* Input validation
 
 ## Darknet Diares (Podcast about real world security attacks)
 
