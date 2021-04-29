@@ -1,7 +1,9 @@
 # Cyber Security
 A repository for cyber security documentation and tools.
 
-## OWASP Dependency Checker
+## Activities to Prevent Security Breaches
+
+### OWASP Dependency Checker
 
 Detect vulnerabilities in npm packages/NuGet packages/3rd party Java libraries with this OWASP tool. Dependency checking or Software Composition Analysis (SCA), is a method of checking publicly disclosed vulnerabilities contained within our project's dependencies.
 
@@ -16,9 +18,13 @@ Download the command line tool and run the following command to perform an analy
 
 > OWASP tool download link: https://owasp.org/www-project-dependency-check/
 
-## OWASP ZAP
+### OWASP ZAP
 
 Intercept requests and perform Man in the Middle attacks.
+
+### npm audit
+
+The audit command submits a description of the dependencies configured in your project to your default registry and asks for a report of known vulnerabilities. If any vulnerabilities are found, then the impact and appropriate remediation will be calculated. If the fix argument is provided, then remediations will be applied to the package tree.
 
 ## OWASP Cheat Sheet
 
