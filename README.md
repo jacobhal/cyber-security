@@ -14,6 +14,8 @@ Download the command line tool and run the following command to perform an analy
 --out <target-folder-for-vulnerability-reports> --proxyserver <proxy-network-address> --proxyport <proxy-port>
 ```
 
+> The tool needs to access the internet to download the latest vulnerability information. If you are on a company VPN you will need to define the proxy.
+
 > OWASP top ten Web application vulnerabilities: https://owasp.org/www-project-top-ten/
 
 > OWASP tool download link: https://owasp.org/www-project-dependency-check/
