@@ -20,6 +20,14 @@ Download the command line tool and run the following command to perform an analy
 
 Intercept requests and perform Man in the Middle attacks.
 
+## OWASP Cheat Sheet
+
+https://cheatsheetseries.owasp.org/
+
+## Darknet Diares (Podcast about real world security attacks)
+
+www.darketdiaries.com
+
 ## Microsoft Best Practices for Azure
 
 https://docs.microsoft.com/en-us/azure/security/develop/secure-dev-overview
